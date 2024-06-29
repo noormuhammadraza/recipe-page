@@ -81,8 +81,12 @@ body {
   margin-bottom: 1em;
 } */
 
+.recipe-text-wrapper {
+  padding: 2em;
+}
+
 .recipe-title {
   font-family: "YoungSerif_Regular";
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: var(--brown);
 }

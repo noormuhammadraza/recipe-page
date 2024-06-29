@@ -36,3 +36,13 @@ h6 {
   overflow-wrap: break-word;
 }
 /* CSS Reset <-- */
+
+@font-face {
+  font-family: "Outfit_Variable";
+  src: url("./assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "YoungSerif_Regular";
+  src: url("./assets/fonts/young-serif/YoungSerif-Regular.ttf");
+}

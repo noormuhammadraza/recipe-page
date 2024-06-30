@@ -159,16 +159,55 @@ h2 {
   color: var(--nutmeg);
 }
 
+.recipe-instructions {
+  margin-bottom: 2em;
+}
+
 .recipe-instructions ol {
   padding: 0.75em 1.5em;
 }
 
 .recipe-instructions li {
-  padding: 0.25em 1.25em;
+  padding: 0 1.25em;
 }
 
 .recipe-instructions li::marker {
   font-size: 0.9rem;
   color: var(--nutmeg);
   font-weight: 700;
+}
+
+.recipe-instructions span {
+  font-weight: 700;
+  color: var(--brown);
+}
+
+.recipe-nutrition h2 {
+  margin-bottom: 0.5em;
+}
+
+.recipe-nutrition p {
+  margin-bottom: 0.75em;
+}
+
+.recipe-nutrition table {
+  padding: 0 2em;
+  margin-left: 2.25em;
+  width: 90%;
+  border-collapse: collapse;
+}
+
+.recipe-nutrition td {
+  border-bottom: 1px solid var(--grey);
+  border-collapse: collapse;
+  padding: 0.5em;
+}
+
+.nutritional-values {
+  font-weight: 700;
+  color: var(--nutmeg);
+}
+
+tr:last-child > td {
+  border: none;
 }

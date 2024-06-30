@@ -96,3 +96,8 @@ body {
 .recipe-title h1 {
   font-weight: 500;
 }
+
+.recipe-overview {
+  color: var(--brown);
+  margin-bottom: 1em;
+}
